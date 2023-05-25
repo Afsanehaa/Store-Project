@@ -5,6 +5,7 @@
 @import './defaults.css';
 @import './footer.css';
 @import './course-box.css'; 
+@import './pagination.css';
 
 /* start Courses Top-bar Styles */
 .courses{
@@ -113,33 +114,5 @@
     cursor: pointer; 
 }
 /* finish Courses Top-bar Styles */
-/* start Courses pagination Styles */
-.courses__pagination{
-    margin: 3rem 0;
-}
-.courses__pagination-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.courses__pagination-link{
-    border-radius: 0.5rem;
-    width: 4rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    background-color: #f0f0f1;
-    margin: 0 0.5rem;
-}
-.courses__pagination-link:hover{
-    color: var(--white-color);
-    background-color: var(--primary-color);
-}
-.courses__pagination-link--active{
-    color: var(--white-color);
-    background-color: var(--primary-color);
-}
-/* finish Courses pagination Styles */
+
 
