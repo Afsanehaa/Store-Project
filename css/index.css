@@ -4,7 +4,8 @@
 @import './navbar.css';
 @import './defaults.css';
 @import './footer.css';
-@import './course-box.css'; 
+@import './course-box.css';
+@import './helper.css' ;
 /*start landing styles*/
 .landing{
     background-image:linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)), url(../images/hobby.png);
@@ -168,38 +169,7 @@ margin-top: 2rem;
     transform: none;
  }
  /* finish popular courses  */
-/*start helper classes*/
-.title{
-    font-size: 2.3rem;
-    color: #444446 ;
-    font-weight: bold;
-    line-height: 1.2;
-    position: relative;
-}
-.title::before{
-    content: "";
-    position: absolute;
-    right: -1rem;
-    width: 0.4rem;
-    height: 4.4rem;
-    background-color: var(--primary-color);
-    border-radius: 5rem;
-    transform: rotate(8deg);
-}
-.title::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    max-width: 250px;
-    height: 60%;
-    background-color: rgba(43,206,86,0.2);
-}
-.course-box__footer-icon{
-    color: var(--primary-color);
-}
-/*finish helper classes*/
+
 /*start articles styles*/
 .articles{
     margin: 4rem 0;
