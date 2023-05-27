@@ -1,0 +1,44 @@
+.Breadcrumb{
+    margin-bottom: 2rem;
+}
+.Breadcrumb__content{
+    display: flex;
+    background-color: #f0f2f7;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+}
+.Breadcrumb__home-content-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: var(--white-color);  
+    border-radius: 1rem;
+}
+.Breadcrumb__home-icon{
+  font-size: 1.8rem;
+  color: #909aa7;   
+}
+.Breadcrumb__list{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+.Breadcrumb__item{
+    display: flex;
+    align-items: center ;
+    
+}
+.Breadcrumb__link{
+    display: flex;
+    align-items: center;
+    color: #7f8187;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.Breadcrumb__icon{
+    margin-right: 1rem;
+    color: #7f8187;
+    font-size: 1.5rem;
+}

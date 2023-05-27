@@ -1,0 +1,113 @@
+@import './variables.css';
+@import './fonts.css';
+@import './top-bar.css';
+@import './navbar.css';
+@import './defaults.css';
+@import './footer.css';
+@import './course-box.css'; 
+@import './pagination.css';
+@import './breadcrumb.css';
+@import './helper.css';
+@import './sidebarCourse.css';
+
+/* start article details styles */
+.article{
+    padding: 2.4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 30px rgba(70, 72, 77, 0.08);
+}
+.article__title{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: var(--dark-color);
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 1rem;
+}
+.article__header{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+.article-header__item{
+    margin-left: 2rem;
+}
+.article-header__icon{
+    font-size: 1.7rem;
+    color: #c7c7c7;
+}
+.article-header__text{
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+.article__banner{
+    margin-top: 4rem;
+}
+/* finish article details styles */
+/* start sidebar styles */
+.course-info{
+    overflow: hidden;
+}
+.course-info__courses-title{
+    position: relative;
+}
+.course-info__courses-title::before{
+content: "";
+position: absolute;
+width: 22px;
+height: 39px;
+background-color: var(--primary-color);
+border-top-left-radius: 8px;
+border-bottom-left-radius: 12px;
+right:-27px;
+transform: skewX(-10deg);
+top: -5px;
+}
+
+.sidebar-articles__list{
+    margin-top: 2rem;
+}
+.sidebar-articles__item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee; 
+    padding: 0.9rem 1.3rem 0.9rem 1rem;
+    transition: all 400ms ease;
+}
+.sidebar-articles__item:hover{
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+.sidebar-articles__item:hover .sidebar-articles__icon{
+    color: var(--primary-color);
+}
+.sidebar-articles__icon{
+    font-size: 1.4rem;
+    color: #989aa7;
+    transition: all 400ms ease;
+}
+.sidebar-articles__link{
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+.last-articles__list{
+    margin-top: 2rem;
+}
+.last-articles__item{
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+}
+.last-articles__link{
+    font-size: 1.5rem ;
+}
+.course-info__courses-list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.course-info__courses-list-price{
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+
+}
+/* finish sidebar styles */
