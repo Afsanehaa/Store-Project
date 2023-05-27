@@ -40,7 +40,159 @@
     color: #8f8f8f;
 }
 .article__banner{
+    width: 90%;
     margin-top: 4rem;
+}
+.article__score{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+.article__score-icon{
+    margin-left: -0.4rem;
+}
+.article__score-text{
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    color: #7d7d7f;
+}
+.article-read{
+    background-color: #f2f2f2;
+    border-radius: 3rem;
+    padding: 2rem 3rem;
+    margin: 3rem 0;
+}
+.article-read__title{
+    display: block;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.article-read__link{
+   line-height: 2;
+   font-size: 1.5rem;
+   color: #1e83f0;
+}
+.article-read__link:hover{
+    text-decoration: underline;
+}
+.article__seconadary-banner{
+    display: block;
+    margin: 0 auto;
+}
+.article-section{
+    margin: 5rem 0;
+}
+.article-section__title{
+    font-size: 2.4rem;
+    color: #008c25;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.article-section__text{
+    margin: 2rem 0;
+}
+.article-section__img{
+    display: block;
+    margin: 0 auto;
+}
+.article-social-media{
+    display: flex;
+    align-items: center;
+}
+.article-social-media__text{
+    font-size: 1.5rem;
+    color: #7d7e7f;
+}
+.article-social-media__link{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    color: #7b868a;
+    text-decoration: none;
+}
+.suggestion-article{
+    margin: 4rem 0;
+    padding: 3.5rem 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #f0f2f0;
+}
+.suggestion-article__content{
+    display: flex;
+    align-items: center;
+}
+.suggestion-article__right{
+    position: relative;
+}
+.suggestion-article__left{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.suggestion-article__right::before{
+    content: "قدیمی تر";
+    position: absolute;
+    top: -2rem;
+    left: 2rem;
+    font-size: 1.8rem;
+    color: #adb5db;
+    transform: rotate(180deg);
+}
+.suggestion-article__left::before{
+    content: "جدیدتر";
+    position: absolute;
+    right: 2rem;
+    bottom: 3rem;
+    font-size: 1.5rem;
+    color: #adb5db;
+}
+.suggestion-article__icon-link{
+    color: #adb5db;
+    
+}
+.suggestion-article__link{
+    text-align: center;
+    margin: 0 2rem;
+    text-decoration: none;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+}
+.comments__title{
+    color: var(--dark-color);
+    font-size: 1.4rem;
+}
+.comments__text{
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+.comments__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.comments__content-title{
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+.comments__content-textarea{
+    height: 18.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 1px 3px 0 rgba(70, 72, 77, 0.8);
+}
+.comments__button{
+    margin-top: 2rem;
+    max-width: 15rem;
+    padding: 0.8rem 1.7rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
 }
 /* finish article details styles */
 /* start sidebar styles */
@@ -110,4 +262,15 @@ top: -5px;
     font-weight: bold;
 
 }
+.article__score-icon{
+    color: rgb(255, 221, 0);
+    margin: 0.1px;
+}
 /* finish sidebar styles */
+/* start Helper classes */
+.paragraph{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #7d7e7f;
+}
+/* finish Helper classes */
