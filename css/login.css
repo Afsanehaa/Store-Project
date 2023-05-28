@@ -109,4 +109,54 @@
     color: var(--white-color);
     margin: 0 auto;
 }
+.login-form__password-setting{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 1rem 0;
+}
+.login-form__password-remember{
+    display: flex;
+    align-items: center;
+}
+.login-form__password-checkbox{
+    margin-left: 1rem;
+}
+.login-form__password-text,.login-form__password-forget-link{
+    font-size: 1.4rem;
+    color: #6c757d;
+    text-decoration: none;
+}
+.login-des{
+    margin-top: 3rem;
+    color: #7b868a;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.login-des-list{
+    list-style-type: disc;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.login-register::before{
+   content:"";
+   position: absolute;
+   top: -5rem;
+   width: 150%;
+   height: 380px;
+   background-color: #2bce56;
+   z-index: -1;
+   transform: rotate(-4deg);
+}
+.login-register::after{
+    content:"";
+   position: absolute;
+   width: 150%;
+   height: 380px;
+   background-color: rgba(43,206,86,0.6);
+   z-index: -99;
+   transform: rotate(-4deg);
+}
+
 /* finish login-register styles */
