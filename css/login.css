@@ -1,0 +1,112 @@
+@import './variables.css';
+@import './fonts.css';
+@import './top-bar.css';
+@import './navbar.css';
+@import './defaults.css';
+@import './footer.css';
+@import './course-box.css'; 
+@import './pagination.css';
+@import './breadcrumb.css';
+@import './helper.css';
+@import './sidebarCourse.css';
+
+/* start login-register styles */
+.login-register{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.login{
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem 0;
+    padding: 2.5rem 2rem 5rem 2rem;
+    box-shadow: 0 6px 20px rgba(168,172,185,0.3);
+    border-radius: 5px;
+    width: 50rem;
+    border-bottom: 5px solid #2bce56;
+}
+.login-title{
+    display: block;
+    color: #7b868a;
+    font-size: 2.2rem;
+}
+.login-subtitle{
+    font-size: 1.5rem;
+    color: #7b868a;
+    display: block;
+}
+.login__new-member{
+    background-color: #f0f2f7;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+.login__new-member{
+    font-size: 1.4rem;
+    color: #7b868a;
+}
+.login__new-member-text{
+    font-size: 1.4rem;
+    color: #7b868a;
+}
+.login__new-member-link{
+    background-color: #a8aaaf;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: var(--white-color);
+    margin-right: 0.7rem;
+    text-decoration: none;
+}
+.login-form{
+    width: 100%;
+}
+.login-form__username , .login-form__password{
+    position: relative;
+}
+.login-form__username-input,.login-form__password-input{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    padding: 1rem 1.1rem;
+    margin: 0.8rem 0;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.08);
+}
+.login-form__username-icon , .login-form__password-icon{
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    font-size: 2.2rem;
+
+}
+.login-form__btn{
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+}
+.login-form__btn-icon{
+    color: var(--white-color);
+    font-size: 1.8rem;
+    position: absolute;
+    right: 1rem;
+}
+.login-form__btn-text{
+    color: var(--white-color);
+    margin: 0 auto;
+}
+/* finish login-register styles */
